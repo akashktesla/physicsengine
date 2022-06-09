@@ -6,7 +6,7 @@
 #include <glm/gtc/type_ptr.hpp>
 
 #include "shaderClass.h"
-#include"Camera.h"
+#include"camera.h"
 #include"Model.h"
 
 #include <iostream>
@@ -81,7 +81,7 @@ int main()
 
     // load models
     // -----------
-    Model ourModel("model_loading.obj");
+    Model ourModel("assets/nanosuit/nanosuit.obj");
 
 
     // draw in wireframe

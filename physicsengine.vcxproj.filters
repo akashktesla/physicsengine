@@ -61,7 +61,7 @@
     <ClInclude Include="shaderClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Camera.h">
+    <ClInclude Include="camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Mesh.h">
@@ -85,6 +85,18 @@
       <Filter>Resource Files\Textures</Filter>
     </Image>
     <Image Include="planks.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="logo gouvernaille.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="plus grande.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="sofwsrfqhpa11.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="texture écaille.jpg">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>

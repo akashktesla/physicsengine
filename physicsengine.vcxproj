@@ -168,17 +168,21 @@
     <None Include="test.vert" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
+    <ClInclude Include="camera.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Model.h" />
     <ClInclude Include="shaderClass.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="brick.png" />
+    <Image Include="logo gouvernaille.png" />
     <Image Include="planks.png" />
     <Image Include="planksSpec.png" />
+    <Image Include="plus grande.jpg" />
     <Image Include="pop_cat.png" />
     <Image Include="pop_cat0.png" />
+    <Image Include="sofwsrfqhpa11.png" />
+    <Image Include="texture écaille.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
