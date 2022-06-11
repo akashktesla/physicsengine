@@ -130,7 +130,6 @@ private:
             }
             else
                 vertex.TexCoords = glm::vec2(0.0f, 0.0f);
-
             vertices.push_back(vertex);
         }
         // now wak through each of the mesh's faces (a face is a mesh its triangle) and retrieve the corresponding vertex indices.
@@ -193,6 +192,8 @@ private:
                 texture.id = TextureFromFile(str.C_Str(), this->directory);
                 texture.type = typeName;
                 texture.path = str.C_Str();
+                //std::cout << texture.id, texture.type, texture.path << std::endl;
+
                 textures.push_back(texture);
                 textures_loaded.push_back(texture);  // store it as texture loaded for entire model, to ensure we won't unnecesery load duplicate textures.
             }
@@ -238,7 +239,7 @@ unsigned int TextureFromFile(const char* path, const string& directory, bool gam
         std::cout << "Texture failed to load at path: " << path << std::endl;
         stbi_image_free(data);
     }
-
+    //std::cout << textureID <<std::endl;
     return textureID;
 }
 #endif

@@ -164,6 +164,7 @@
     <None Include="light.vert" />
     <None Include="modelLoading.frag" />
     <None Include="modelLoading.vert" />
+    <None Include="model_loading.txt%27" />
     <None Include="test.frag" />
     <None Include="test.vert" />
   </ItemGroup>

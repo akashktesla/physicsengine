@@ -19,6 +19,9 @@
     <Filter Include="Resource Files\Textures">
       <UniqueIdentifier>{b76ea1ba-a663-4a9a-a612-186c63b2ab63}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\helper_files">
+      <UniqueIdentifier>{a5ff8e46-b3bd-48c6-a222-222e917fecb6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -55,6 +58,9 @@
     </None>
     <None Include="modelLoading.frag">
       <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="model_loading.txt%27">
+      <Filter>Resource Files\helper_files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

@@ -5,9 +5,9 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
+#include "camera.h"
 #include "shaderClass.h"
-#include"camera.h"
-#include"Model.h"
+#include "Model.h"
 
 #include <iostream>
 
@@ -45,7 +45,7 @@ int main()
 
     // glfw window creation
     // --------------------
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "valzkai aee", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "valzkai aeeee", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -81,7 +81,7 @@ int main()
 
     // load models
     // -----------
-    Model ourModel("assets/nanosuit/nanosuit.obj");
+    Model ourModel("Assets/burningCube/burningCube.obj");
 
 
     // draw in wireframe
