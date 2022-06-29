@@ -45,7 +45,7 @@ int main()
 
     // glfw window creation
     // --------------------
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "valzkai aeeee", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "ennada valzkai ithu", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -81,7 +81,7 @@ int main()
 
     // load models
     // -----------
-    Model ourModel("Assets/burningCube/burningCube.obj");
+    Model ourModel("assets/backpack/backpack.obj");
 
 
     // draw in wireframe
